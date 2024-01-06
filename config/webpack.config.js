@@ -13,6 +13,10 @@ const config = merge(common, {
     background: PATHS.src + '/background.js',
     fetch: PATHS.src + '/fetch.js',
   },
+  watchOptions: {
+    aggregateTimeout: 200,
+    poll: 1000, // Docker container on Windows has issues with watching files
+  },
 });
 
 module.exports = config;

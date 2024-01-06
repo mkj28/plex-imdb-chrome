@@ -14,22 +14,13 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Plex Imdb-chrome",
-    "default_popup": "popup.html"
+    "default_title": "Plex Imdb-chrome"
   },
   "permissions": [
     "storage",
-    "clipboardWrite"
-  ],
-  "content_scripts": [
-    {
-      "matches": [
-        "https://www.imdb.com/title/*"
-      ],
-      "run_at": "document_idle",
-      "js": [
-        "fetch.js"
-      ]
-    }
+    "clipboardWrite",
+    "activeTab",
+    "scripting"
   ]
+  
 }
