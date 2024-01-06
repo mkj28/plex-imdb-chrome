@@ -17,7 +17,6 @@
     "default_title": "Plex Imdb-chrome"
   },
   "permissions": [
-    "storage",
     "clipboardWrite",
     "activeTab",
     "scripting"

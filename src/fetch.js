@@ -21,25 +21,16 @@ if (releaseString) {
 if (imdbId) {
     combinedText += " {imdb-" + imdbId + "}"
 }
-console.log(combinedText);
 
+console.log('Proposed string: ' + combinedText);
+
+// Create a temporary input element and copy the text to clipboard
 var tempInput = document.createElement("input");
 tempInput.style = "position: absolute; left: -1000px; top: -1000px";
 tempInput.value = combinedText;
-console.log(tempInput.value)
 document.body.appendChild(tempInput);
 tempInput.select();
 tempInput.setSelectionRange(0, 99999); // For mobile devices
 document.execCommand("copy");
 alert("Copied the text: " + tempInput.value);
 document.body.removeChild(tempInput);
-
-// Listen for message
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    if (request.type === 'FETCH') {
-        console.log(`Proposed filename is: ${combinedText}`);
-    }
-
-    sendResponse({ message: combinedText, });
-    return true;
-});
