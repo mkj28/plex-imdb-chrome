@@ -10,9 +10,7 @@
     "prettier": "prettier --write"
   },
   "pre-commit": [
-    "lint-lib",
-    "lint-styles-lib",
-    "test-lib-pre-commit"
+    "lint"
   ],
   "devDependencies": {
     "copy-webpack-plugin": "^6.4.1",
