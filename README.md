@@ -8,7 +8,7 @@ Chrome extension to generate Plex-friendly filenames based on IMDB
 
 ## Install
 
-[**Chrome** extension]()
+[Download](releases/), unzip, and [load unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
 
 ## Contribution
 
