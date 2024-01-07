@@ -18,6 +18,9 @@
 ## Bundle the extension
 To package the source code into static files for the Chrome webstore, execute `npm run build`.
 
+## Package into release zip
+Execute `npm run release`.
+
 ## Documentation
 Refer to [the Chrome developer documentation](https://developer.chrome.com/docs/extensions/mv3/getstarted/) to get started.
 

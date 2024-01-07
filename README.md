@@ -1,11 +1,10 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Plex Imdb Chrome
 
-My Chrome Extension
+Chrome extension to generate Plex-friendly filenames based on IMDB
 
 ## Features
 
-- Feature 1
-- Feature 2
+- When clicked: populate clipboard with Plex-friendly string from the current IMDB title page
 
 ## Install
 

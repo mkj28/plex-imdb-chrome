@@ -3,6 +3,7 @@
 
 # production
 /build
+plex-imdb-chrome.zip
 
 # misc
 .DS_Store

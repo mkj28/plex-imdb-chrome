@@ -6,6 +6,9 @@
   "scripts": {
     "watch": "node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
     "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js",
+    "zip": "cd build && zip -r ../${npm_package_name}.zip .",
+    "cleanup": "rm -f ${npm_package_name}.zip && rm -rf build/*",
+    "release": "npm run cleanup && npm run build && npm run zip",
     "lint": "eslint --ext .ts,.js --max-warnings=0 .",
     "prettier": "prettier --write"
   },
