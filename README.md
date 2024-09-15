@@ -12,7 +12,7 @@ Chrome extension to generate Plex-friendly filenames based on IMDB
 
 ## Contribution
 
-Suggestions and pull requests are welcomed!.
+Suggestions and pull requests are welcomed!
 
 ---
 
