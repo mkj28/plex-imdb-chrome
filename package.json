@@ -1,6 +1,6 @@
 {
   "name": "plex-imdb-chrome",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Chrome extension to generate Plex-friendly filenames based on IMDB",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "eslint-config-google": "^0.14.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.10.1",
-    "pre-commit": "^1.2.2",
+    "pre-commit": "^2.0.0",
     "prettier": "^3.1.1",
     "size-plugin": "^1.2.0",
     "webpack": "^5.105.0",

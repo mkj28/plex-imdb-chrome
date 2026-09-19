@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Plex IMDB title extractor",
   "$schema": "https://json.schemastore.org/chrome-manifest.json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Chrome extension to generate Plex-friendly filenames based on IMDB",
   "icons": {
     "16": "icons/icon_16.png",
